@@ -33,7 +33,7 @@ public class HangmanController {
 	}
 	// TODO: change the constructor to use EvilHangman
 	public static void main(String[] args) throws FileNotFoundException {
-		Hangman game = new EvilHangman();
+		Hangman game = new EvilHangman(3, 50);
 		game.setWord("fly");
 		HangmanController.consoleUI(game);
 	}

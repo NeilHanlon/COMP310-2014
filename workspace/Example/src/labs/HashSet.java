@@ -36,6 +36,7 @@ public class HashSet<T> implements Set<T> {
 	public boolean add(T arg0) {
 //      Hint: use arg0.hashCode();
 //      Hint: do proper bookkeeping on the size
+		structure.add(arg0);
 		return false;
 	}
 	
